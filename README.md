@@ -9,7 +9,7 @@ This Python script checks the validity of Server Name Indication (SNI) hosts by 
 - Saves valid SNIs to `working_sni.txt`
 
 ## Requirements
-- Python 3.x
+- Python 3
 
 ## Installation
 1. Clone the repository:
