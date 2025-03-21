@@ -6,8 +6,6 @@ import time
 HOST_FILE = "host.txt"
 WORKING_SNI_FILE = "working_sni_zoom.txt"
 
-# Original VLESS link
-VLESS_TEMPLATE = "vless://42d69a27-4249-442d-f63f-7bbc78c8bfb9@skynetconfigs.duckdns.org:443?type=tcp&security=tls&fp=chrome&alpn=&allowInsecure=1&sni={}"
 
 def check_sni(host, port=443, timeout=5):
     """
