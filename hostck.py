@@ -3,7 +3,7 @@ import socket
 import time
 
 # Input & Output files
-HOST_FILE = "zoom.txt"
+HOST_FILE = "host.txt"
 WORKING_SNI_FILE = "working_sni_zoom.txt"
 
 # Original VLESS link
