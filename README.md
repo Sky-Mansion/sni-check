@@ -6,7 +6,7 @@ This Python script checks the validity of Server Name Indication (SNI) hosts by 
 - Reads SNIs from `host.txt`
 - Checks if an SNI is valid using SSL
 - Measures latency for working SNIs
-- Saves valid SNIs to `working_sni_zoom.txt`
+- Saves valid SNIs to `working_sni.txt`
 
 ## Requirements
 - Python 3.x
@@ -14,8 +14,8 @@ This Python script checks the validity of Server Name Indication (SNI) hosts by 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/sni-checker.git
-   cd sni-checker
+   git clone https://github.com/Sky-Mansion/sni-check.git
+   cd sni-check
    ```
 2. Ensure you have Python installed.
 
@@ -23,16 +23,16 @@ This Python script checks the validity of Server Name Indication (SNI) hosts by 
 1. Add a list of SNIs (one per line) in `host.txt`.
 2. Run the script:
    ```sh
-   python sni_checker.py
+   python hostck.py
    ```
 3. The working SNIs will be saved in `working_sni_zoom.txt`.
 
 ## File Structure
 ```
-📂 sni-checker
+📂 sni-check
 ├── host.txt             # Input file containing SNIs
-├── working_sni_zoom.txt # Output file with working SNIs
-├── sni_checker.py       # Main script
+├── working_sni.txt      # Output file with working SNIs
+├── hostck.py            # Main script
 ├── README.md            # Documentation
 ```
 
@@ -52,5 +52,5 @@ This project is licensed under the MIT License.
 Feel free to submit issues or pull requests to improve the script!
 
 ---
-Made with ❤️ by Your Name
+Made with ❤️ by dilshan
 
